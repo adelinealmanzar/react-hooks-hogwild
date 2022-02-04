@@ -1,12 +1,7 @@
 import React from "react";
 import Nav from "./Nav";
 import PigList from "./PigList"
-
-function Header() {
-	return (
-		<h3>Header</h3>
-	)
-}
+import Header from "./Header"
 
 function App() {
 	
@@ -14,7 +9,7 @@ function App() {
 		<div className="App">
 			<Nav />
 			<Header />
-			<PigList />
+			{/* <PigList /> */}
 		</div>
 	);
 }

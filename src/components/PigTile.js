@@ -17,7 +17,7 @@ function PigTile({ hog }) {
         }
     }
   return (
-    <div onClick={handleClick}className="ui eight wide column" style={{'border-style': 'solid'}}>
+    <div style={{'marginTop': '20px'}} onClick={handleClick}className="ui eight wide column pigTile">
         <img src={hog.image} style={{width: '50%'}}></img>
         <h2>{hog.name}</h2>
         {renderDetails()}
