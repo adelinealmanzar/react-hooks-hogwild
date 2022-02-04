@@ -1,12 +1,20 @@
 import React from "react";
 import Nav from "./Nav";
+import PigList from "./PigList"
 
-import hogs from "../porkers_data";
+function Header() {
+	return (
+		<h3>Header</h3>
+	)
+}
 
 function App() {
+	
 	return (
 		<div className="App">
 			<Nav />
+			<Header />
+			<PigList />
 		</div>
 	);
 }
